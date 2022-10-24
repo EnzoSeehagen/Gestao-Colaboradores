@@ -12,8 +12,11 @@
     padding: 5px 15px;
     box-sizing: border-box;
     outline: none;
+    -webkit-appearance: none;
     border-radius: 40px;
-    color: #FFF;
+    color: rgb(157, 155, 155);
     box-shadow: inset -5px -5px 10px rgba(255,255,255,0.05),
             inset 5px 5px 15px rgba(0, 0, 0, 0.50) ;
+    cursor: pointer;
+
 }

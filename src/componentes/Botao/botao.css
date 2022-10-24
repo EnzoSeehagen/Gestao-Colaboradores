@@ -1,0 +1,30 @@
+.botao {
+    margin-top: 25px;
+    background-color: #131419;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.0);
+    width: 100%;
+    height: 65px;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    outline:none;
+    border-radius: 40px;
+    color: #b3afaf;            
+    box-shadow: inset -5px -5px 10px rgba(255,255,255,0.05),
+            inset 5px 5px 15px rgba(0, 0, 0, 0.50) ;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    color: #FFF;
+    text-shadow: 0 0 10px #e0b48c,
+                 0 0 20px #e0b48c,
+                 0 0 40px #e0b48c,
+                 0 0 80px #e0b48c,
+                 0 0 100px #e0b48c;
+
+}
