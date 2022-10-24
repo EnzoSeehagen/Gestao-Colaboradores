@@ -5,15 +5,28 @@
 .campo-texto label {
     display: block;
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 18px;
+    color: #868686;
+    margin-bottom: 15px;
 }
 
 .campo-texto input {
-    background-color: #fff;
+    background-color: #131419;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.0);
     width: 100%;
+    height: 65px;
     border: none;
-    font-size: 24px;
-    padding: 24px;
+    font-size: 22px;
+    padding: 5px 15px;
     box-sizing: border-box;
+    outline: none;
+    border-radius: 40px;
+    color: #FFF;
+    box-shadow: inset -2px -2px 6px rgba(255,255,255,0.01),
+           inset 2px 2px 6px rgba(0, 0, 0, 0.8) ;
+
+}
+
+.dados {
+    color: #868686
 }
