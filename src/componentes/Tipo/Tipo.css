@@ -7,7 +7,7 @@ body {
     text-align: center;
     background-color: #131419;
     color: #e0b48c;
-    padding: 175px 175px 125px;
+    padding: 130px 130px 75px;
     box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
             5px 5px 15px rgba(0, 0, 0, 0.50) ;
     margin: 50px;
@@ -18,11 +18,12 @@ body {
 }
 
 .tipo h3 {
-    font-size: 24px;
+    font-size: 32px;
     color: #e0b58c;
-    font-weight: 400;
+    font-weight: bolder;
     text-transform: uppercase;
     font-family: 'Cinzel', serif;
-    
+    margin-bottom:75px;
+    margin-top: -35px;
     
 }

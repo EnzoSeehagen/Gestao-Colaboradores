@@ -13,7 +13,7 @@ const Formulario = (props) => {
     'Conselho do Rei',
     'Montadores de Dragões',
     'Nortenhos',
-    'White Walkers',
+    'White Walkers'
 
   ]
 

@@ -1,3 +1,4 @@
+import Personagem from '../Personagem'
 import './Tipo.css'
 
 const Tipo = (props) => {
