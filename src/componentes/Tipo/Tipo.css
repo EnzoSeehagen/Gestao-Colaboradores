@@ -12,9 +12,6 @@ body {
             5px 5px 15px rgba(0, 0, 0, 0.50) ;
     margin: 50px;
 
-
-    
-
 }
 
 .tipo h3 {
@@ -26,4 +23,11 @@ body {
     margin-bottom:75px;
     margin-top: -35px;
     
+}
+
+.tipo .personagens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
 }

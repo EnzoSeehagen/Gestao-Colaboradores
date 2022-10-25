@@ -1,17 +1,16 @@
 import './Personagem.css'
 
-const Personagem = () => {
+const Personagem = ({ nome, imagem, tipo }) => {
     return (
         <div className='cardsombra'>
             <div className='cardpersonagem'>
                 <div className='personagem'>
                     <div className='cabecalho'>
                         <div>
-                            <img className='img' src="imagens/avatar.png" alt='Rhaenyra'/>
+                            <img className='img' src={imagem} alt={nome}/>
                         </div>
                         <div className='rodape'>
-                            <h4>rhaenyra targaryen</h4>
-                            <h5>Rainha</h5>
+                            <h4>{nome}</h4>
                         </div>
                     </div>
                 </div>

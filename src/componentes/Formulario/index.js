@@ -31,6 +31,8 @@ const Formulario = (props) => {
       imagem,
       tipo
     })
+    
+
   }
 
   return (

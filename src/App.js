@@ -43,9 +43,13 @@ function App() {
     <div className="App">
       <Banner/>
       <Formulario aoPersonagemCadastrado={personagem => aoPersonagemAdicionado(personagem)}/>
-      {funcaoPersonagem.map(tipo => <Tipo key={tipo.nome} nome={tipo.nome} corPrimaria={tipo.corPrimaria}/>)}
-      <Tipo nome="Rei / Rainha"/>
-     
+
+      {funcaoPersonagem.map(tipo => <Tipo 
+      key={tipo.nome} 
+      nome={tipo.nome} 
+      corPrimaria={tipo.corPrimaria}
+      personagens={personagens.filter(personagem => personagem.tipo === tipo.nome )}/>)}   
+        
     </div>
   );
 }
