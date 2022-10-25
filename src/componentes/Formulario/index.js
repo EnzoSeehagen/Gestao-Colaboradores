@@ -4,12 +4,12 @@ import CampoTexto from "../CampoTexto";
 import ListaSuspensa from "../ListaSuspensa";
 import "./Formulario.css";
 
-const Formulario = () => {
+const Formulario = (props) => {
 
-  const times = [
+  const tipos = [
 
     'Rei / Rainha',
-    'Príncipe(s)',
+    'Príncipe / Princesa',
     'Conselho do Rei',
     'Montadores de Dragões',
     'Nortenhos',
@@ -20,11 +20,17 @@ const Formulario = () => {
   const [nome, setNome] = useState('')
   const [casa, setCasa] = useState('')
   const [imagem, setImagem] = useState('')
+  const [tipo, setTipo] = useState('')
 
 
   const aoSalvar = (evento) => {
     evento.preventDefault()
-    console.log('Form enviado!', nome, casa, imagem)
+    props.aoPersonagemCadastrado({
+      nome,
+      casa,
+      imagem,
+      tipo
+    })
   }
 
   return (
@@ -41,10 +47,10 @@ const Formulario = () => {
               valor={imagem} obrigatorio={true} label="" 
               placeholder="Digite o endereço da imagem " aoAlterado={valor => setImagem(valor)} />
         <ListaSuspensa 
-              obrigatorio={true} label="" 
-              placeholder="Digite o tipo do personagem " itens={times}/>
+              valor={tipo} obrigatorio={true} label="" 
+              placeholder="Digite o tipo do personagem " itens={tipos} aoAlterado={valor => setTipo(valor)}/>
         <Botao>
-              Savar e cadastrar Card do personagem
+              Salvar e cadastrar Card do personagem
         </Botao> 
       </form>
     </section>

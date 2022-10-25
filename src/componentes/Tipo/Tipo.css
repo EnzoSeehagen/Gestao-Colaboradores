@@ -1,0 +1,28 @@
+body {
+    background-color: #131419;
+}
+
+.tipo {
+    position: relative;
+    text-align: center;
+    background-color: #131419;
+    color: #e0b48c;
+    padding: 175px 175px 125px;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+            5px 5px 15px rgba(0, 0, 0, 0.50) ;
+    margin: 50px;
+
+
+    
+
+}
+
+.tipo h3 {
+    font-size: 24px;
+    color: #e0b58c;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif;
+    
+    
+}
